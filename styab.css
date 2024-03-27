@@ -1,0 +1,260 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+body {
+  background: #eeeeee;
+  font-family: "Varela Round", sans-serif;
+}
+.form-inline {
+  display: inline-block;
+}
+.navbar-header.col {
+  padding: 0 !important;
+}
+.navbar {
+  background: #fff;
+  padding-left: 16px;
+  padding-right: 16px;
+  border-bottom: 1px solid #d6d6d6;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.1);
+}
+.nav-link {
+  margin: 0 5px;
+}
+.nav-link img {
+  border-radius: 50%;
+  width: 36px;
+  height: 36px;
+  margin: -8px 0;
+  float: left;
+  margin-right: 10px;
+}
+.navbar .navbar-brand {
+  color: #555;
+  padding-left: 0;
+  font-size: 20px;
+  padding-right: 50px;
+  font-family: "Raleway", sans-serif;
+}
+.navbar .navbar-brand b {
+  font-weight: bold;
+  color: rgb(0, 183, 255);
+}
+.navbar .navbar-nav a:hover,
+.navbar .navbar-nav a:focus {
+  color: rgb(90, 208, 255) !important;
+}
+.navbar .navbar-nav a.active,
+.navbar .navbar-nav a.active:hover {
+  color: rgb(90, 208, 255) !important;
+  background: transparent !important;
+}
+.search-box {
+  position: relative;
+}
+.search-box input.form-control {
+  padding-right: 35px;
+  border-radius: 0;
+  padding-left: 0;
+  border-width: 0 0 1px 0;
+  box-shadow: none;
+}
+.search-box input.form-control:focus {
+  border-color: #f08373;
+}
+.search-box .input-group-text {
+  min-width: 35px;
+  border: none;
+  background: transparent;
+  position: absolute;
+  right: 0;
+  z-index: 9;
+  padding: 7px 0 7px 7px;
+  height: 100%;
+}
+.search-box i {
+  color: #a0a5b1;
+  font-size: 19px;
+}
+.navbar .nav-item i {
+  font-size: 18px;
+}
+.navbar .dropdown-item i {
+  font-size: 16px;
+  min-width: 22px;
+}
+.navbar .nav-item.show > a {
+  background: none !important;
+}
+.navbar .dropdown-menu {
+  border-radius: 1px;
+  border-color: #e5e5e5;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+.navbar .dropdown-menu a {
+  color: #777;
+  padding: 8px 20px;
+  line-height: normal;
+  font-size: 15px;
+}
+.navbar .navbar-form {
+  margin-right: 0;
+  margin-left: 0;
+  border: 0;
+}
+@media (min-width: 992px) {
+  .form-inline .input-group {
+    width: 250px;
+    margin-right: 30px;
+  }
+}
+@media (max-width: 991px) {
+  .form-inline {
+    display: block;
+    margin-bottom: 10px;
+    margin-top: 0;
+  }
+  .input-group {
+    width: 100%;
+  }
+}
+body {
+  background-color: #f8f9fa; 
+}
+
+
+
+
+
+
+#b1 {
+  background-image: url(pics/11.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 300px;
+}
+#b2 {
+  transform: translate(0%, 100%);
+}
+
+
+
+
+
+
+#gallery-1{
+  background-image: url(pics/20.jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 25vh;
+  width: 25vw;
+  
+  
+  
+
+}
+
+#gallery-1:hover #h-1{
+  display: block;
+}
+#gallery-2{
+  background-image: url(pics/16.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 25vh;
+  width: 30vw;
+}
+
+#gallery-2:hover #h-2{
+  display: block;
+}
+#gallery-3{
+  background-image: url(pics/17.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 25vh;
+  width: 30vw;
+}
+
+#gallery-3:hover #h-3{
+  display: block;
+}
+#gallery-4{
+  background-image: url(pics/18.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+ height: 25vh;
+  width: 25vw;
+}
+
+#gallery-4:hover #h-4{
+  display: block;
+
+}
+#gallery-5{
+  background-image: url(pics/19.jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 25vh;
+  width: 30vw;
+}
+
+#gallery-5:hover #h-5{
+  display: block;
+}
+#gallery-6{
+  background-image: url(pics/15.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 25vh;
+  width: 26vw;
+}
+allery-6:hover #h-6{
+  display: block;
+}
+.gallery-item {
+  position: relative;
+  overflow: hidden;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: transform 0.3s ease-in-out;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 25vh;
+  width: 25vw;
+}
+
+.gallery-item:hover {
+  transform: scale(1.05);
+}
+
+.gallery-item h4 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: none;
+  color: #fff;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+  font-size: 1.5em;
+  font-weight: bold;
+  transition: all 0.3s ease-in-out;
+  text-align: center;
+}
+
+.gallery-item:hover h4 {
+  display: block;
+}
+
+

@@ -1,0 +1,465 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+@media (max-width: 767px) {
+  .intro,
+  .form-1 {
+    width: 100%;
+  }
+}
+
+.form-inline {
+	display: inline-block;
+}
+.navbar-header.col {
+	padding: 0 !important;
+}	
+.navbar {		
+	background: #fff;
+	padding-left: 16px;
+	padding-right: 16px;
+	border-bottom: 1px solid #d6d6d6;
+	box-shadow: 0 0 4px rgba(0,0,0,.1);
+}
+.nav-link {
+	margin: 0 5px;
+}
+.nav-link img {
+	border-radius: 50%;
+	width: 36px;
+	height: 36px;
+	margin: -8px 0;
+	float: left;
+	margin-right: 10px;
+}
+.navbar .navbar-brand {
+	color: #555;
+	padding-left: 0;
+	font-size: 20px;
+	padding-right: 50px;
+	font-family: 'Raleway', sans-serif;
+}
+.navbar .navbar-brand b {
+	font-weight: bold;
+	color: rgb(0, 183, 255);
+}
+.navbar .navbar-nav a:hover, .navbar .navbar-nav a:focus {
+	color: rgb(90, 208, 255) !important;
+}
+.navbar .navbar-nav a.active, .navbar .navbar-nav a.active:hover {
+	color: rgb(90, 208, 255)!important;
+	background: transparent !important;
+}
+.search-box {
+	position: relative;
+}	
+.search-box input.form-control {		
+	padding-right: 35px;
+	border-radius: 0;
+	padding-left: 0;
+	border-width: 0 0 1px 0;
+	box-shadow: none;
+}
+.search-box input.form-control:focus {		
+	border-color: #f08373;		
+}
+.search-box .input-group-text {
+	min-width: 35px;
+	border: none;
+	background: transparent;
+	position: absolute;
+	right: 0;
+	z-index: 9;
+	padding: 7px 0 7px 7px;
+	height: 100%;
+}
+.search-box i {
+	color: #a0a5b1;
+	font-size: 19px;
+}
+.navbar .nav-item i {
+	font-size: 18px;
+}
+.navbar .dropdown-item i {
+	font-size: 16px;
+	min-width: 22px;
+}
+.navbar .nav-item.show > a {
+	background: none !important;
+}
+.navbar .dropdown-menu {
+	border-radius: 1px;
+	border-color: #e5e5e5;
+  
+	box-shadow: 0 2px 8px rgba(0,0,0,.05);
+}
+.navbar .dropdown-menu a {
+	color: #777;
+	padding: 8px 20px;
+	line-height: normal;
+	font-size: 15px;
+}
+.navbar .navbar-form {
+	margin-right: 0;
+	margin-left: 0;
+	border: 0;
+}
+@media (min-width: 992px){
+	.form-inline .input-group {
+		width: 250px;
+		margin-right: 30px;
+	}
+}
+@media (max-width: 991px){
+	.form-inline {
+		display: block;
+		margin-bottom: 10px;
+		margin-top: 0;
+	}
+	.input-group {
+		width: 100%;
+	}
+}
+body {
+  background-color: #f8f9fa;
+}
+
+.first-para p {
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  font-size: 18px;
+  text-shadow: 0.2px 0.2px black;
+
+}
+
+.intro {
+  position: relative;
+  width: 100%; /* Make the video cover the entire width */
+  height: 600px; /* Set a fixed height for the video section */
+  overflow: hidden;
+}
+
+.head-1 h1 {
+  font-size: 60px;
+  color: whitesmoke;
+}
+.park-heading {
+  font-weight: bold;
+  font-size: 60px;
+  color: white;
+  text-shadow: 0.5px 0.5px black;
+  margin-bottom: 20px; 
+}
+
+.park-slogan {
+  font-size: 18px;
+  color: white;
+  font-weight: bold;
+  line-height: 1.5; 
+  margin-top: 10px;
+  text-shadow: 0.2px 0.2px black;
+}
+
+
+.box-1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh; /* Make .box-1 at least the height of the viewport */
+}
+
+
+.form-1 {
+  border-radius: 10px;
+  background-color: #f2f2f2;
+  width: 60%;
+  max-width: 600px;
+  text-align: center;
+  padding: 20px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s, transform 0.2s;
+}
+
+#name,
+#phone,
+#email,
+#pack,
+#date {
+  width: 80%;
+  max-width: 400px;
+  height: 50px;
+  margin-bottom: 20px;
+  padding: 10px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  transition: border-color 0.3s;
+}
+
+#sub-btn {
+  width: 80%;
+  max-width: 400px;
+  height: 50px;
+  color: white;
+  background-color: #00b4d8;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+#sub-btn:hover {
+  background-color: #297fb8;
+  transform: scale(1.05);
+}
+
+.box-1:hover .form-1 {
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  transform: scale(1.02);
+}
+
+
+.cards-1 {
+  padding-bottom: 100px;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.card {
+  border-radius: 10px;
+  width: 500px;
+  height: 100%;
+  margin: 10px;
+  overflow: hidden;
+  transition: box-shadow 0.3s, transform 0.3s;
+}
+
+.card:hover {
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  transform: scale(1.02);
+}
+
+.card img {
+  display: block;
+  margin: 0 auto;
+  width: 500px;
+  height: 400px;
+  object-fit: cover;
+}
+
+.card-body {
+  text-align: center;
+  
+}
+.card-title{
+  text-shadow: 1px 1px black;
+}
+.card-text{
+  text-shadow: 0.1px 0.1px black;
+}
+.table-1 table {
+  border-collapse: collapse;
+  width: 100%;
+  margin: 20px auto;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s;
+  text-shadow: 0.1px 0.1px black;
+}
+
+.table-1 th,
+.table-1 td {
+  border: 1px solid #ddd;
+  padding: 20px;
+  text-align: center;
+  font-size: 18px;
+  color: #343a40;
+}
+
+.table-1 th {
+  font-size: 30px;
+  background-color: #00b4d8;
+  color: white;
+}
+
+.table-1:hover {
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+.box-2 {
+  padding-bottom: 100px;
+  margin-left: 80px;
+}
+
+.package-wrapper {
+  padding: 20px;
+  margin-left: 100px;
+}
+
+.package-wrapper .package-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  margin: 0 auto;
+  margin-left: -70px;
+}
+
+.package-wrapper .package-card {
+  border: 2px solid #00b4d8;
+  border-radius: 15px;
+  padding: 20px;
+  width: 500px;
+  height: 300px;
+  text-align: center;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+  margin: 10px;
+}
+
+.package-wrapper .package-card:hover {
+  transform: scale(1.05) rotate(5deg);
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+.package-wrapper .package-card h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  font-weight: bold;
+  color: black;
+  margin-top: 30px;
+}
+
+.package-wrapper .package-card p {
+  font-size: 16px;
+  color: black;
+}
+
+.package-wrapper .select-button {
+  background-color: #00b4d8;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background-color 0.3s, color 0.3s;
+  font-weight: bold;
+  margin-top: 15px;
+}
+
+.package-wrapper .select-button:hover {
+  background-color: #297fb8;
+  color: #e5e5e5;
+}
+
+.select-button {
+  transition: background-color 0.3s, color 0.3s;
+  margin-top: 50px;
+  width: 200px;
+}
+
+.select-button:hover {
+  background-color: #297fb8;
+ 
+}
+
+.cards-2 {
+  padding-bottom: 50px;
+}
+
+.card img {
+  border-radius: 10px 10px 0 0;
+}
+.box3{
+           
+  box-sizing: border-box;
+  width: 500px; 
+   padding: 50px;
+  margin-left: 100px; 
+   padding-left: 80px; 
+   color: white;
+   background-color: white;
+   color:black ;
+   margin-bottom: 100px;
+   margin-top: 100px;
+   margin-right: 100px;
+}
+.box4 {
+ 
+  box-sizing: border-box;
+  width: 300px; 
+   padding: 50px;
+  /* margin-left: 100px; 
+   padding-left: 80px;  */
+   color: white;
+   background-color: rgb(8, 8, 94);
+}
+.box5 {
+
+  box-sizing: border-box;
+  width: 300px; 
+   padding: 50px;
+ 
+   margin-top: 100px;
+   color: white;
+   background-color: rgb(66, 151, 187);
+}
+.box6{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.box3{
+  font-size: 20px;
+} 
+ button{
+    background-color: #00b4d8;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.3s, color 0.3s;
+    font-weight: bold;
+    margin-top: 15px;
+  }
+button:hover {
+    background-color: #297fb8;
+    color: black;
+  }
+  .box-ent{
+    background-color: #eeeeee;
+  }
+  .tik2 {
+    background-color: white;
+    padding: 20px;
+    text-align: center;
+    
+}
+
+.tik {
+  color: black; 
+    margin: 0;
+    font-size: 4em; 
+    transition: color 0.3s ease-in-out;
+    text-shadow: 2px 2px #7c8186;
+    text-decoration: underline;
+    
+}
+
+#video-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
+}
